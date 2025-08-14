@@ -1,0 +1,14 @@
+[package]
+name = "matching-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.88"
+chrono = { version = "0.4", features = ["serde"] }
+dashmap = "6.1.0"
+rand = "0.9.1"
+rust_decimal = { version = "1.33", features = ["serde"] }
+serde = { version = "1.0.219", features = ["derive"] }
+tokio = { version = "1.45.1", features = ["full"] }
+uuid = { version = "1.17.0", features = ["v4", "serde"] }
